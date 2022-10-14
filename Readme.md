@@ -11,10 +11,10 @@
 14hrs
 
 ## Screenshot &nbsp; ![badge](https://img.shields.io/badge/Website-Screenshot-orange)
-![project10](./Hosting%20Landing%20Page/screenshot.png)
+![project11](./Hosting%20Landing%20Page/screenshot.png)
 <br>
 <br>
 ![badge](https://img.shields.io/badge/Mobile-View-yellow)
 <br>
 <br>
-![project10]()
+![project11](./Hosting%20Landing%20Page/mobileview.png)
