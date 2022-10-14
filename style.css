@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:100vh;
+    width:100%;
+    font-family: Roboto;
+}
+.navbar{
+    margin: 0 5%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15vh;
+}
+.menu{
+    display: flex;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+}
+.logoimg{
+    height: 30px;
+}
+.list, .logo, .register{
+    margin: auto 0;
+}
+.list-item{
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #827f7f;
+}
+.button-small{
+    background:#fff;
+    border-radius: 8px;
+    height: 50px;
+    width: 150px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    color:#509ef2;
+    border:2px solid #509ef2;;
+    font-weight: bold;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    margin: 90px 5%;
+}
+.mbtn{
+    margin: auto 0;
+    display: none;
+}
+.nine{
+    background-image: linear-gradient( 135deg, #09C6F9 10%, #045DE9 100%);
+}
+.secnine{
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.three, .four{
+    display: flex;
+    flex-direction: row;
+    margin: 200px 5%;
+}
+.four{
+    margin-bottom: 120px;
+}
+.leftside>h1{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 17px;
+    font-family: Open Sans;
+}
+.leftside>p{
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.6;
+}
+.leftside>h1 span, .leftside>p span{
+    display: block;
+}
+.btnright{
+    width: 134px;
+    height: 38px;
+    font-size: 13px;
+    font-family: Open Sans;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin: 30px 0;
+    color: #fff;
+    font-weight: 700;
+}
+.five{
+    display: flex;
+    flex-direction: row;
+    margin:0px 5%;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.service{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 5%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.services{
+    width:350px;
+    margin:40px 0;
+    padding:5px;
+}
+.services img{
+    height: 40px;
+}
+.heading{
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.seven{
+    background-image: linear-gradient( 135deg, #09C6F9 10%, #045DE9 100%);
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.secseven{
+    display: flex;
+    flex-direction: row;
+    margin: 0 5%;
+    justify-content: center;
+flex-wrap: wrap;
+}
+.bottom{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.bottom p{
+    margin-top: 8px;
+    font-size: 11px;
+    font-family: Poppins;
+    color:gray;
+    font-weight: 600;
+    
+}
+.ptop-2{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.bottom .btns{
+    width: 134px;
+    height: 38px;
+    font-size: 13px;
+    font-family: Open Sans;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #509ef2;
+    border: 2px solid #509ef2;
+    margin: 30px 0;
+    font-weight: 700;
+}
+.btnu{
+    width: 134px;
+    height: 38px;
+    font-size: 13px;
+    font-family: Open Sans;
+    border-radius: 5px;
+    background-image: linear-gradient( 135deg, #09C6F9 10%, #045DE9 100%);
+    border: none;
+    margin: 30px 0;
+    color: #fff;
+    font-weight: 700;
+}
+.bottom span{
+    color: gray;
+}
+.services h1{
+    font-size: 25px;
+    margin: 20px 0;
+}
+.successimg{
+    height:15px;
+}
+.services p{
+    font-size: 12px;
+    line-height: 1.6;
+    color: gray;
+}
+.infofive,.subinfo{
+    flex:1;
+}
+.pcard{
+    margin:15px;
+    background-color: #fff;
+    border-radius: 10px;
+    width:280px;
+}
+.ptop{
+    padding:20px;
+    border-radius: 10px;
+}
+.ptop h1{
+  font-size: 23px; margin:15px 0;
+  font-family: Open Sans;
+}
+.ptop p{
+    font-size: 13px;
+    color: gray;
+    font-weight: 500;
+}
+.middle{
+    margin: 15px;
+}
+.pmiddle{
+    margin-bottom: 15px;
+    display: flex;
+}
+.pmiddle p{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.frstinfo h1>span, .thirdinfo h1>span, .infofive h1>span{
+    display: block;
+    font-family: Open Sans;
+}
+.sectwoinfo h1>span{
+    font-family: Open Sans;
+}
+.frstinfo h1, .sectwoinfo h1, .thirdinfo h1, .infofive h1{
+    font-size: 45px;
+}
+.frstinfo p>span, .sectwoinfo p>span, .thirdinfo p>span{
+    display: block;
+    line-height: 1.6;
+}
+.subinfo p>span{
+    line-height: 1.6;
+    color: gray;
+    display: block;
+}
+.frstinfo p, .sectwoinfo p, .thirdinfo p{
+    padding: 20px 10px 0px 0px;
+    font-size: 15px;
+    color: gray;
+}
+.server, .testing,.sectwoinfo{
+    flex:1.2;
+}
+.frstinfo{
+    flex: 1.5
+}
+.thirdinfo, .tech{
+    flex:1;
+}
+.serverimg, .testingimg, .techimg{
+    height:100%;
+    width:100%;
+}
+.frstinfo button, .sectwoinfo button, .thirdinfo button{
+    height: 50px;
+    font-family: 'Open Sans';
+    width: 180px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border:none;
+    color:#fff;
+    font-weight: bold;
+    background-image: linear-gradient( 135deg, #09C6F9 10%, #045DE9 100%);
+    font-size: 14px;
+    }
+
+.sectwoinfo{
+    margin-left: 50px;
+    margin-top:20px;
+}
+.sectwoinfo p{
+    margin-top:35px;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+.thirdinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.seceight{
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+}
+.firstp{
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    
+}
+.firstph{
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+    font-size: 30px;
+}
+.firstpp{
+    font-size: 14px;
+    color: gray;
+    line-height: 1.6;
+}
+.firstph,.firstpp{
+    text-align: center;
+}
+.firstp p>span{
+    display: block;
+}
+.secondp{
+    border: 1px solid #e4dbdb;
+    padding: 23px;
+    background-color: #fff;
+    width: 425px;
+    border-radius: 10px;
+    margin:10px 10px;
+}
+.fbck{
+    line-height: 1.6;
+    font-weight: 600;
+    font-size: 14px;
+    color: #665e5e;
+    font-family: 'Open Sans';
+}
+.fdbckname{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    font-family: Open Sans;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: #e0e0e0;
+}
+.name{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.list-item:hover{
+    color: #000000;
+    cursor: pointer;
+}
+.names{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.comp{
+    font-family: 'OPEN SANS';
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+}
+.secondpart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer-section{
+    margin: 0 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px 0;
+}
+.footer-logo{
+    height: 20px;
+    margin-bottom: 10px;
+}
+.blockc span{
+    display: block;
+}
+.item{
+    list-style: none;
+}
+.item li{
+    margin-bottom: 9px;
+    font-size:11px;
+    font-family:Poppins;
+    font-weight:500;
+    color:gray
+}
+.footer2p p, .footer-right1 p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.footer-left p{
+    font-size:11px;
+    font-family:Poppins;
+    font-weight:500;
+    color:gray;
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+}
+.icons button{
+    font-size: 8px;
+    height: 19px;
+    width: 19px;
+    padding: 2px 2px;
+    border-radius: 10px;
+    background-image: linear-gradient( 135deg, #09C6F9 10%, #045DE9 100%);
+    border:none;
+    color:#fff;
+    margin-right: 5px;
+}
+@media screen and (max-width:1100px) {
+.server,.frstinfo{
+    flex: 1;
+}
+.server{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+.frstinfo h1>span, .frstinfo p>span, .thirdinfo p>span{
+    display: inline;
+}
+.frstinfo h1, .sectwoinfo h1{
+    font-size: 36px;
+}
+ .thirdinfo h1{
+font-size: 34px;
+}
+.testing{
+    display: flex;
+}
+.testing,.sectwoinfo{
+    flex: 1;
+}
+.sectwoinfo p, .sectwoinfo button{
+    margin-top: 20px;
+}
+.subinfo p>span{
+    display: inline;
+}
+.subinfo{
+    margin-left: 25px;
+}
+.infofive h1 {
+    font-size: 36px;
+}
+.secnine{
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+}
+@media screen and (max-width:989px) {
+.mbtn{
+    display: block;
+}
+.menu{
+    display: none;
+}
+}
+@media screen and (max-width:835px) {
+.service{
+    justify-content: center;
+}
+}
+@media screen and (max-width:768px) {
+.two, .four{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+} 
+.three, .five{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sectwoinfo{
+    margin-left: 0;
+}
+.two{
+    margin: 70px 5%;
+}
+.three, .four{
+    margin: 85px 5%;
+}
+.thirdinfo{
+    align-items: center;
+}
+.thirdinfo button{
+    margin-top: 23px;
+}
+.five{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.subinfo{
+    margin-left: 0;
+}
+.four{
+    margin-bottom: 60px;
+}
+.btnright{
+    margin-bottom: 0;
+}
+.footer-section{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.footer-left, .footer2p{
+    margin-bottom: 20px;
+}
+.secnine{
+    flex-direction: column;
+}
+}
+@media screen and (max-width:640px) {
+.frstinfo h1, .sectwoinfo h1, .thirdinfo h1, .infofive h1{
+    font-size: 25px;
+}
+
+}
