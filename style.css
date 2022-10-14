@@ -537,5 +537,10 @@ font-size: 34px;
 .frstinfo h1, .sectwoinfo h1, .thirdinfo h1, .infofive h1{
     font-size: 25px;
 }
-
+.leftside h1{
+    font-size: 32px;
+}
+.leftside h1>span{
+    display: inline;
+}
 }
