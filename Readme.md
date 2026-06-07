@@ -1,6 +1,6 @@
 # Hosting Landing Page &nbsp; ![badge](https://img.shields.io/badge/HTML%20and%20CSS-Project11-green) &nbsp; ![badge](https://img.shields.io/badge/-Responsive-orange)
 
-[![](https://img.shields.io/badge/Live-Link-blue)](https://hosting-service-landingpage.netlify.app/)
+[![](https://img.shields.io/badge/Live-Link-blue)](https://project-11-xi.vercel.app/)
 
 ## Skills acquired 👨‍💻
 - How to design the cards.
